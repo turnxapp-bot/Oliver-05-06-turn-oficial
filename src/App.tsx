@@ -622,7 +622,7 @@ export default function App() {
                 {[
                   { title: "Empresários", desc: "Para quem precisa de pares, conselheiros, parceiros, investidores/ financiadores. e conversas com densidade." },
                   { title: "Consultores", desc: "Para quem quer estar perto das oportunidades e pessoas certas, ampliar relevância e gerar negócio." },
-                  { title: "Executivos", desc: "Para quem vive execução, pressão e precisa de uma rede que ajude a clarear idéias, abrir portas, e compactuar dos desavios." },
+                  { title: "Executivos", desc: "Para quem vive execução, pressão e precisa de uma rede que ajude a clarear idéias, abrir portas, e compactuar dos desafios." },
                   { title: "Investidores/ Financiadores", desc: "Para quem busca oportunidades qualificadas para participar do ecossistema do turnaround." }
                 ].map((item, idx) => (
                   <motion.div 
@@ -978,7 +978,7 @@ export default function App() {
                     <a href="#" className="hover:text-brand-primary transition-colors">Termos</a>
                     <a href="#" className="hover:text-brand-primary transition-colors">Contato</a>
                 </div>
-                <p className="text-slate-400">© 2024 TURN Business Club. Todos os direitos curados reservados.</p>
+                <p className="text-slate-400">© 2026 TURN Business Club. Todos os direitos curados reservados.</p>
             </div>
         </div>
       </footer>
