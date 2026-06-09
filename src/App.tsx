@@ -105,12 +105,15 @@ const Navbar = ({ onJoinClick }: { onJoinClick: () => void }) => {
             <a href="#entrega" onClick={() => setIsOpen(false)}>Entregáveis</a>
             <a href="#planos" onClick={() => setIsOpen(false)}>Planos</a>
             <a href="#connect" onClick={() => setIsOpen(false)}>Conexão</a>
-            <button 
-              onClick={() => { setIsOpen(false); onJoinClick(); }}
-              className="w-full py-4 bg-brand-primary text-white font-bold tracking-widest"
+            <a 
+              href="https://turnu.site/turn-oficial/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
+              className="w-full py-4 bg-brand-primary text-white font-bold tracking-widest text-center flex items-center justify-center cursor-pointer"
             >
               QUERO FAZER PARTE
-            </button>
+            </a>
           </motion.div>
         )}
       </AnimatePresence>
@@ -516,18 +519,22 @@ export default function App() {
                 transition={{ duration: 0.8, delay: 0.3 }}
                 className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 md:gap-6"
               >
-                <button 
-                  onClick={() => setIsFormOpen(true)}
-                  className="px-8 md:px-10 py-4 md:py-5 bg-brand-primary text-white text-[11px] md:text-[12px] font-bold uppercase tracking-[0.2em] border border-brand-primary hover:bg-slate-800 transition-all shadow-xl shadow-brand-primary/10"
+                <a 
+                  href="https://turnu.site/turn-oficial/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-8 md:px-10 py-4 md:py-5 bg-brand-primary text-white text-[11px] md:text-[12px] font-bold uppercase tracking-[0.2em] border border-brand-primary hover:bg-slate-800 transition-all shadow-xl shadow-brand-primary/10 flex items-center justify-center cursor-pointer"
                 >
                   QUERO FAZER PARTE
-                </button>
-                <button 
-                  onClick={() => window.open('https://turnu.site/', '_blank')}
-                  className="px-8 md:px-10 py-4 md:py-5 border border-slate-200 bg-white text-slate-600 text-[11px] md:text-[12px] font-bold uppercase tracking-[0.2em] hover:bg-slate-50 transition-all"
+                </a>
+                <a 
+                  href="https://turnu.site/turn-oficial/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-8 md:px-10 py-4 md:py-5 border border-slate-200 bg-white text-slate-600 text-[11px] md:text-[12px] font-bold uppercase tracking-[0.2em] hover:bg-slate-50 transition-all flex items-center justify-center cursor-pointer"
                 >
                   JÁ SOU MEMBRO
-                </button>
+                </a>
               </motion.div>
             </div>
 
@@ -953,12 +960,14 @@ export default function App() {
                 O TURN conecta quem valoriza a construção de relacionamento de longo prazo com pessoas relevantes, em ambiente propício para forte colaboração
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-6 md:gap-8">
-                <button 
-                  onClick={() => setIsFormOpen(true)}
-                  className="w-full sm:w-auto px-12 py-6 bg-brand-accent text-brand-primary text-[12px] md:text-[13px] font-bold uppercase tracking-[0.3em] hover:bg-white transition-all shadow-2xl"
+                <a 
+                  href="https://turnu.site/turn-oficial/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto px-12 py-6 bg-brand-accent text-brand-primary text-[12px] md:text-[13px] font-bold uppercase tracking-[0.3em] hover:bg-white transition-all shadow-2xl flex items-center justify-center cursor-pointer font-sans"
                 >
                     QUERO FAZER PARTE
-                </button>
+                </a>
             </div>
             <p className="mt-16 text-slate-500 text-[11px] font-bold uppercase tracking-[0.2em] flex items-center justify-center gap-3">
                 <Lock size={12} strokeWidth={2.5} /> Estritamente por convite e curadoria.
