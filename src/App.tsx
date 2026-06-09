@@ -70,7 +70,7 @@ const Navbar = ({ onJoinClick }: { onJoinClick: () => void }) => {
 
         <div className="hidden md:flex items-center gap-6">
           <a 
-            href="https://turnu.site/turn-oficial/"
+            href="https://turnu.site/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[13px] font-bold uppercase tracking-widest text-slate-500 hover:text-brand-primary transition-colors flex items-center justify-center cursor-pointer"
@@ -78,7 +78,7 @@ const Navbar = ({ onJoinClick }: { onJoinClick: () => void }) => {
             JÁ SOU MEMBRO
           </a>
           <a 
-            href="https://turnu.site/turn-oficial/"
+            href="https://turnu.site/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-7 py-2.5 bg-brand-primary text-white text-[13px] font-bold uppercase tracking-widest border border-brand-accent/20 hover:bg-slate-800 transition-all flex items-center justify-center cursor-pointer"
@@ -106,7 +106,7 @@ const Navbar = ({ onJoinClick }: { onJoinClick: () => void }) => {
             <a href="#planos" onClick={() => setIsOpen(false)}>Planos</a>
             <a href="#connect" onClick={() => setIsOpen(false)}>Conexão</a>
             <a 
-              href="https://turnu.site/turn-oficial/"
+              href="https://turnu.site/"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
@@ -520,7 +520,7 @@ export default function App() {
                 className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 md:gap-6"
               >
                 <a 
-                  href="https://turnu.site/turn-oficial/"
+                  href="https://turnu.site/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-8 md:px-10 py-4 md:py-5 bg-brand-primary text-white text-[11px] md:text-[12px] font-bold uppercase tracking-[0.2em] border border-brand-primary hover:bg-slate-800 transition-all shadow-xl shadow-brand-primary/10 flex items-center justify-center cursor-pointer"
@@ -528,7 +528,7 @@ export default function App() {
                   QUERO FAZER PARTE
                 </a>
                 <a 
-                  href="https://turnu.site/turn-oficial/"
+                  href="https://turnu.site/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-8 md:px-10 py-4 md:py-5 border border-slate-200 bg-white text-slate-600 text-[11px] md:text-[12px] font-bold uppercase tracking-[0.2em] hover:bg-slate-50 transition-all flex items-center justify-center cursor-pointer"
@@ -961,7 +961,7 @@ export default function App() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-6 md:gap-8">
                 <a 
-                  href="https://turnu.site/turn-oficial/"
+                  href="https://turnu.site/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto px-12 py-6 bg-brand-accent text-brand-primary text-[12px] md:text-[13px] font-bold uppercase tracking-[0.3em] hover:bg-white transition-all shadow-2xl flex items-center justify-center cursor-pointer font-sans"
