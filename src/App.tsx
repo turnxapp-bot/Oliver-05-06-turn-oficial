@@ -69,18 +69,22 @@ const Navbar = ({ onJoinClick }: { onJoinClick: () => void }) => {
         </div>
 
         <div className="hidden md:flex items-center gap-6">
-          <button 
-            onClick={() => window.open('https://turnu.site/turn-oficial/', '_blank')}
-            className="text-[13px] font-bold uppercase tracking-widest text-slate-500 hover:text-brand-primary transition-colors"
+          <a 
+            href="https://turnu.site/turn-oficial/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[13px] font-bold uppercase tracking-widest text-slate-500 hover:text-brand-primary transition-colors flex items-center justify-center cursor-pointer"
           >
             JÁ SOU MEMBRO
-          </button>
-          <button 
-            onClick={() => window.open('https://turnu.site/turn-oficial/', '_blank')}
-            className="px-7 py-2.5 bg-brand-primary text-white text-[13px] font-bold uppercase tracking-widest border border-brand-accent/20 hover:bg-slate-800 transition-all"
+          </a>
+          <a 
+            href="https://turnu.site/turn-oficial/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-7 py-2.5 bg-brand-primary text-white text-[13px] font-bold uppercase tracking-widest border border-brand-accent/20 hover:bg-slate-800 transition-all flex items-center justify-center cursor-pointer"
           >
             QUERO FAZER PARTE
-          </button>
+          </a>
         </div>
 
         <button className="lg:hidden text-brand-primary" onClick={() => setIsOpen(!isOpen)}>
